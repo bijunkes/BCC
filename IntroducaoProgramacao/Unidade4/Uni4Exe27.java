@@ -1,6 +1,5 @@
 package Unidade4;
 import java.util.Scanner;
-import java.lang.Math.*;
 
 public class Uni4Exe27 {
     public static void main(String[] args) {
