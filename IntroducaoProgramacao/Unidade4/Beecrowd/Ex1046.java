@@ -1,7 +1,7 @@
 package Unidade4.Beecrowd;
 import java.util.Scanner;
 
-public class Ex05 {
+public class Ex1046 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
