@@ -1,4 +1,4 @@
-package Unidade6;
+package Unidade6.Vetores;
 import java.util.Scanner;
 
 public class Uni6Exe02 {

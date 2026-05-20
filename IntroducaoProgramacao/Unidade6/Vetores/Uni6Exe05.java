@@ -1,4 +1,4 @@
-package Unidade6;
+package Unidade6.Vetores;
 import java.util.Scanner;
 
 import Unidade4.Beecrowd.a;
