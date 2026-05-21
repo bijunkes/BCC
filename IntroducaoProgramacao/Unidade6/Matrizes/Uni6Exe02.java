@@ -1,3 +1,4 @@
+package Unidade6.Matrizes;
 import java.util.Scanner;
 
 public class Uni6Exe02 {
