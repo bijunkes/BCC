@@ -44,7 +44,7 @@ public class Uni6Exe05 {
                     // Verificar posição
                     boolean preencheu = false;
                     do {
-                        if (matriz[linha][coluna] == " ") {
+                        if (matriz[linha][coluna].equals(" ")) {
                             matriz[linha][coluna] = jogadorAtual;
                             jogadas++;
                             preencheu = true;
@@ -55,12 +55,16 @@ public class Uni6Exe05 {
                             }
                         } else {
                             System.out.println("Posição preenchida");
-                            
-                            System.out.print("Informe a linha: ");
-                            linha = s.nextInt();
 
-                            System.out.print("Informe a coluna: ");
-                            coluna = s.nextInt();
+                            do {
+                                System.out.print("Informe a linha [0, 1, 2]: ");
+                                linha = s.nextInt();
+                            } while (linha < 0 || linha > 2);
+
+                            do {
+                                System.out.print("Informe a coluna [0, 1, 2]: ");
+                                coluna = s.nextInt();
+                            } while (coluna < 0 || coluna > 2);
                         }
                     } while (preencheu == false);
 
@@ -89,13 +93,19 @@ public class Uni6Exe05 {
                     }
 
                     // Velha
+                    velha = true;
+
                     for (int lin = 0; lin < matriz.length; lin++) {
                         for (int col = 0; col < matriz[lin].length; col++) {
-                            if (!matriz[lin][col].equals(" ")) {
-                                velha = true;
+
+                            if (matriz[lin][col].equals(" ")) {
+                                velha = false;
                             }
                         }
-                        System.out.println();
+                    }
+
+                    if (venceu) {
+                        velha = false;
                     }
                     break;
 
@@ -116,7 +126,17 @@ public class Uni6Exe05 {
                     break;
             }
 
-        } while (jogadas < 9 || velha == true || venceu == true);
+            if (venceu) {
+                System.out.println("Vitória");
+                break;
+            }
+
+            if (velha) {
+                System.out.println("Deu velha");
+                break;
+            }
+
+        } while (jogadas < 9 && velha == false && venceu == false);
         System.out.println("--- Jogo encerrado ---");
 
         s.close();
