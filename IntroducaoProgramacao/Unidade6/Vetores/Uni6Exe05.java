@@ -1,8 +1,6 @@
 package Unidade6.Vetores;
 import java.util.Scanner;
 
-import Unidade4.Beecrowd.a;
-
 public class Uni6Exe05 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
