@@ -11,7 +11,7 @@ public class Pedido {
         this.precoUnitario = precoUnitario;
     }
 
-    double calcularTotal() {
+    double calcularTotal(int quantidade, double precoUnitario) {
         return quantidade * precoUnitario;
     }
 }

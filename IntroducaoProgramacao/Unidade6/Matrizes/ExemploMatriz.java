@@ -16,7 +16,7 @@ public class ExemploMatriz {
 
         for (int lin = 0; lin < notas.length; lin++) {
             for (int col = 0; col < notas[lin].length; col++) {
-                System.out.print("Informe a nota[" + col + "] do aluno [" + lin + "]: ");
+                System.out.print("Informe a nota [" + col + "] do aluno [" + lin + "]: ");
                 notas[lin][col] = s.nextInt();
             }
         }
@@ -33,7 +33,7 @@ public class ExemploMatriz {
             }
 
             int media = somaAluno / notas[aluno].length;
-            System.out.println("A média do aluno[" + aluno + "]: " + media);
+            System.out.println("A média do aluno [" + aluno + "]: " + media);
         }
 
         int mediaGeral = somaGeral / (notas.length * notas[0].length);

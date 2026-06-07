@@ -8,80 +8,82 @@ public class Main {
 
         Pedido[] pedidos = new Pedido[10];
         int totalPedidos = 0;
-        int opcao = 0;
+
+        int opcao;
+
+        String nomeItem = "";
+        double precoUnitario = 0f;
         double total = 0;
 
-        System.out.println("=== LANCHONETE ===\r\n" +
-                "1 - Adicionar item\r\n" +
-                "2 - Ver comanda\r\n" +
-                "0 - Fechar e pagar");
-
         do {
+            System.out.println("=== LANCHONETE ===\n1 - Adicionar item\n2 - Ver comanda\n3 - Fechar e pagar");
             System.out.print("Opção: ");
             opcao = s.nextInt();
+            System.out.println();
+
+            total = 0;
+
+            for (int i =  0; i < totalPedidos; i++) {
+                total += pedidos[i].calcularTotal(pedidos[i].quantidade, pedidos[i].precoUnitario);
+            }
 
             switch (opcao) {
                 case 1:
-                    System.out.println("1 - X-Burger (R$ 18.50)\r\n" +
-                            "2 - X-Salada (R$ 16.00)\r\n" +
-                            "3 - Suco Natural (R$ 8.00)");
+                    System.out.println("=== CARDÁPIO ===\n1 - X-Burger (R$ 18.50)\n2 - X-Salada (R$ 16.00)\n3 - Suco Natural (R$ 8.00)");
 
-                    System.out.print("Item: ");
-                    int escolha = s.nextInt();
-                    System.out.print("Quantidade: ");
-                    int qtde = s.nextInt();
+                    if (pedidos.length == totalPedidos) {
+                        System.out.println("Comanda cheia!");
+                    } else {
+                        System.out.print("Item: ");
+                        int item = s.nextInt();
 
-                    boolean vazio = false;
-
-                    for (int i = 0; i < pedidos.length; i++) {
-                        if (pedidos[i] == null) {
-                            vazio = true;
-                            break;
-                        }
-                    }
-
-                    if (vazio) {
-                        switch (escolha) {
+                        switch (item) {
                             case 1:
-                                pedidos[totalPedidos] = new Pedido("X-Burger", qtde, 18.5);
+                                nomeItem = "X-Burger";
+                                precoUnitario = 18.50;
                                 break;
 
                             case 2:
-                                pedidos[totalPedidos] = new Pedido("X-Salada", qtde, 16.0);
+                                nomeItem = "X-Salada";
+                                precoUnitario = 16.00;
                                 break;
 
                             case 3:
-                                pedidos[totalPedidos] = new Pedido("Suco Natural", qtde, 8.0);
+                                nomeItem = "Suco Natural";
+                                precoUnitario = 8.00;
                                 break;
-
+                        
                             default:
                                 break;
                         }
-                    } else {
-                        System.out.println("Comanda cheia");
+
+                        System.out.print("Quantidade: ");
+                        int quantidade = s.nextInt();
+
+                        pedidos[totalPedidos] = new Pedido(nomeItem, quantidade, precoUnitario);
+
+                        System.out.println("Adicionado!\n");
+
+                        totalPedidos++;
                     }
                     break;
 
                 case 2:
                     System.out.println("=== COMANDA ===");
-                    for (int i = 0; i < pedidos.length; i++) {
-                        if (pedidos[i].nomeItem != null) {
-                            System.out.println(pedidos[i].nomeItem + " x" + pedidos[i].quantidade + " = R$ "
-                                    + pedidos[i].precoUnitario);
-                            total += pedidos[i].calcularTotal();
-                        } else {
-                            break;
-                        }
+                    for (int i = 0; i < totalPedidos; i++) {
+                        System.out.println(pedidos[i].nomeItem + " x" + pedidos[i].quantidade + " = R$ " + pedidos[i].calcularTotal(pedidos[i].quantidade, pedidos[i].precoUnitario));
+                        System.out.println("TOTAL: R$ " + total + "\n");
                     }
-                    System.out.println("TOTAL: R$ " + total);
                     break;
-
+            
                 default:
                     break;
             }
-            totalPedidos++;
-        } while (opcao != 0 && totalPedidos < 10);
-        System.out.println("Total a pagar: R$ " + total);
-        System.out.println("Obrigado, volte sempre");
+
+        } while (opcao != 3);
+
+        System.out.println("Total a pagar: R$ " + total + "\nObrigado, volte sempre!");
+
+        s.close();
     }
 }
