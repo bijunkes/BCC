@@ -7,6 +7,7 @@ public class Sala {
     int poltronas;
     boolean[][] mapa;
     float[] precos;
+    String[] descPoltrona;
     Random random;
 
     Sala(int filas, int poltronas) {
@@ -15,6 +16,9 @@ public class Sala {
         this.mapa = new boolean[filas][poltronas];
         this.random = new Random();
         this.precos = new float[filas];
+        this.descPoltrona = new String[filas];
+
+        this.iniciar_precos();
     }
 
     void preencher(int limite) {
@@ -38,7 +42,7 @@ public class Sala {
     }
 
     void exibir() {
-        System.out.println("========= MAPA SESSÃO =========\n");
+        System.out.println("========= MAPA SESSÃO =========");
         System.out.print("   ");
         for (int i = 0; i < poltronas; i++) {
             System.out.print(i + "  ");
@@ -58,39 +62,44 @@ public class Sala {
 
             System.out.println();
         }
+        System.out.println("===============================\n");
     }
 
-    void comprar(int fila, int poltrona, int tipo) {
-        this.exibir();
-
-        if (fila > filas || poltrona > poltrona) {
+    boolean valdiar_poltrona(int fila, int poltrona) {
+        if (fila < 0 || fila >= filas || poltrona < 0 || poltrona >= poltronas) {
             System.out.println("Fora dos limites.");
+            return false;
         }
-
-        else if (mapa[fila][poltrona]) {
+        if (mapa[fila][poltrona]) {
             System.out.println("Poltrona já vendida.");
+            return false;
+        }
+        return true;
+    }
+
+    void comprar(int fila, int poltrona, int tipo, String confirmacao) {
+        float precoIngresso = this.precos[fila];
+
+        if (confirmacao.equalsIgnoreCase("S")) {
+            System.out.println("Compra realizada.");
+            this.mapa[fila][poltrona] = true;
         } else {
-            float preco;
-
-            if (fila <= 1) {
-                preco = 15f;
-            } else if (fila >= 8) {
-                preco = 35;
-            } else {
-                preco = 25;
-            }
-
-            if (tipo == 2) {
-                preco /= 2;
-            }
-
-            mapa[fila][poltrona] = true;
+            System.out.println("Compra cancelada.");
         }
     }
 
     void iniciar_precos() {
         for (int i = 0; i < filas; i++) {
-            
+            if (i <= 1) {
+                this.precos[i] = 15f;
+                descPoltrona[i] = "Frente";
+            } else if (i <= 7 && i >= 2) {
+                this.precos[i] = 25f;
+                descPoltrona[i] = "Meio";
+            } else {
+                this.precos[i] = 35f;
+                descPoltrona[i] = "VIP";
+            }
         }
     }
 
