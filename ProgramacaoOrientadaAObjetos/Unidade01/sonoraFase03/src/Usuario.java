@@ -30,4 +30,9 @@ public class Usuario {
         return email;
     }
 
+    public static void resetarIds() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'resetarIds'");
+    }
+
 }

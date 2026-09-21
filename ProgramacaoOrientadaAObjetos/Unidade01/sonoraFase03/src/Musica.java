@@ -55,4 +55,9 @@ public class Musica {
         return String.format("%02d:%02d", minutos, segundos);
     }
 
+    public static void resetarIds() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'resetarIds'");
+    }
+
 }
