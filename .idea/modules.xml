@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BCC.iml" filepath="$PROJECT_DIR$/BCC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/Lista01/Lista01.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/Lista01/Lista01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase04/sonoraFase04.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase04/sonoraFase04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase05/sonoraFase05.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase05/sonoraFase05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase06/sonoraFase06.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase06/sonoraFase06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase07/sonoraFase07.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase07/sonoraFase07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase03/sonoraFase4.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase03/sonoraFase4.iml" />
+    </modules>
+  </component>
+</project>

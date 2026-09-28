@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "c:\\Users\\bjrech\\Downloads\\junit-platform-console-standalone-6.0.0.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
