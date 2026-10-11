@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="P1z7rh97sxxIEb6aiLmj">
-    <mxGraphModel dx="2091" dy="1606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="858" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,29 +28,35 @@
         <mxCell id="H5LggXL_RPys8e6z8wPp-8" parent="H5LggXL_RPys8e6z8wPp-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Musica(titulo: String, artista: String, duracaoSegundos: int, String: album)&lt;div&gt;+ getArtista(): String&lt;/div&gt;&lt;div&gt;+ setArtista(String: artista): void&lt;/div&gt;&lt;div&gt;+ getAlbum(): String&lt;/div&gt;&lt;div&gt;+ setAlbum(String: album): void&lt;/div&gt;&lt;div&gt;+ getDuracaoFormatada(): String&lt;br&gt;+ getCreditos(): String&lt;/div&gt;" vertex="1">
           <mxGeometry height="142" width="190" y="88" as="geometry" />
         </mxCell>
-        <mxCell id="H5LggXL_RPys8e6z8wPp-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Playlist" vertex="1">
-          <mxGeometry height="250" width="220" x="780" y="480" as="geometry" />
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-1" edge="1" parent="1" source="H5LggXL_RPys8e6z8wPp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="LClV99jyUjGdxW2D3NQb-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="H5LggXL_RPys8e6z8wPp-10" parent="H5LggXL_RPys8e6z8wPp-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nome: String&lt;div&gt;- dono: Usuario&lt;/div&gt;&lt;div&gt;- ArrayList(Musica)&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="54" width="220" y="26" as="geometry" />
+        <mxCell id="H5LggXL_RPys8e6z8wPp-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Playlist" vertex="1">
+          <mxGeometry height="230" width="240" x="80" y="-290" as="geometry" />
+        </mxCell>
+        <mxCell id="H5LggXL_RPys8e6z8wPp-10" parent="H5LggXL_RPys8e6z8wPp-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nome: String&lt;div&gt;- dono: Usuario&lt;/div&gt;&lt;div&gt;- ArrayList(Conteudo)&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="240" y="26" as="geometry" />
         </mxCell>
         <mxCell id="H5LggXL_RPys8e6z8wPp-11" parent="H5LggXL_RPys8e6z8wPp-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="220" y="80" as="geometry" />
+          <mxGeometry height="8" width="240" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="H5LggXL_RPys8e6z8wPp-12" parent="H5LggXL_RPys8e6z8wPp-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Playlist(nome: String, dono: Usuario)&lt;div&gt;+ getNome(): String&lt;/div&gt;&lt;div&gt;+ getDono(): Usuario&lt;/div&gt;&lt;div&gt;+ getQuantidade(): int&lt;/div&gt;&lt;div&gt;+ adicionar(musica: Musica): boolean&lt;/div&gt;&lt;div&gt;+ getNaPosicao(indice: int): Musica&lt;/div&gt;&lt;div&gt;+ removerNaPosicao(indice: int): boolean&lt;/div&gt;&lt;div&gt;+ getDuracaoTotalSegundos(): int&lt;/div&gt;&lt;div&gt;+ reproduzirTudo(): void&lt;/div&gt;" vertex="1">
-          <mxGeometry height="162" width="220" y="88" as="geometry" />
+        <mxCell id="H5LggXL_RPys8e6z8wPp-12" parent="H5LggXL_RPys8e6z8wPp-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Playlist(nome: String, dono: Usuario)&lt;div&gt;+ getNome(): String&lt;/div&gt;&lt;div&gt;+ getDono(): Usuario&lt;/div&gt;&lt;div&gt;+ getQuantidade(): int&lt;/div&gt;&lt;div&gt;+ adicionar(conteudo: Conteudo): boolean&lt;/div&gt;&lt;div&gt;+ getNaPosicao(indice: int): Conteudo&lt;/div&gt;&lt;div&gt;+ removerNaPosicao(indice: int): boolean&lt;/div&gt;&lt;div&gt;+ getDuracaoTotalSegundos(): int&lt;/div&gt;&lt;div&gt;+ reproduzirTudo(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="240" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-2" edge="1" parent="1" source="H5LggXL_RPys8e6z8wPp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="LClV99jyUjGdxW2D3NQb-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H5LggXL_RPys8e6z8wPp-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Plataforma" vertex="1">
-          <mxGeometry height="230" width="220" x="1030" y="480" as="geometry" />
+          <mxGeometry height="300" width="270" x="330" y="-290" as="geometry" />
         </mxCell>
-        <mxCell id="H5LggXL_RPys8e6z8wPp-14" parent="H5LggXL_RPys8e6z8wPp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ArrayList(Musica)&lt;div&gt;- ArrayList(Usuario)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="34" width="220" y="26" as="geometry" />
+        <mxCell id="H5LggXL_RPys8e6z8wPp-14" parent="H5LggXL_RPys8e6z8wPp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- ArrayList(Conteudo)&lt;div&gt;- ArrayList(Usuario)&lt;/div&gt;&lt;div&gt;- ArrayList(Anuncio)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="270" y="26" as="geometry" />
         </mxCell>
         <mxCell id="H5LggXL_RPys8e6z8wPp-15" parent="H5LggXL_RPys8e6z8wPp-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
-          <mxGeometry height="8" width="220" y="60" as="geometry" />
+          <mxGeometry height="8" width="270" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="H5LggXL_RPys8e6z8wPp-16" parent="H5LggXL_RPys8e6z8wPp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Plataforma()&lt;div&gt;+ cadastrarMusica(musica: Musica): boolean&lt;/div&gt;&lt;div&gt;+ cadastrarUsuario(usuario: Usuario): booelan&lt;/div&gt;&lt;div&gt;+ buscarMusica(id: int): Musica&lt;/div&gt;&lt;div&gt;+ buscarMusica(titulo: String): Musica&lt;/div&gt;&lt;div&gt;+ buscarUsuario(id: int): Usuario&lt;/div&gt;&lt;div&gt;+ getTotalMusicas(): int&lt;/div&gt;&lt;div&gt;+ getTotalUsuarios(): int&lt;/div&gt;" vertex="1">
-          <mxGeometry height="162" width="220" y="68" as="geometry" />
+        <mxCell id="H5LggXL_RPys8e6z8wPp-16" parent="H5LggXL_RPys8e6z8wPp-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Plataforma()&lt;div&gt;+ cadastrarConteudo(conteudo: Contuedo): boolean&lt;/div&gt;&lt;div&gt;+ cadastrarUsuario(usuario: Usuario): booelan&lt;/div&gt;&lt;div&gt;+ buscarConteudo(id: int): Conteudo&lt;/div&gt;&lt;div&gt;+ buscarConteudo(titulo: String): Conteudo&lt;/div&gt;&lt;div&gt;+ buscarUsuario(id: int): Usuario&lt;/div&gt;&lt;div&gt;+ getTotalConteudo(): int&lt;/div&gt;&lt;div&gt;+ getTotalUsuarios(): int&lt;/div&gt;&lt;div&gt;+ calcularReceitaMensal(): double&lt;/div&gt;&lt;div&gt;+ listarEpisodiosDe(apresentador: String): void&lt;/div&gt;&lt;div&gt;+ cadastrarAnuncio(anuncio: Anuncio): boolean&lt;/div&gt;&lt;div&gt;+ tocarPlaylist(ouvinte: Usuario, playlist: Playlist): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="212" width="270" y="88" as="geometry" />
         </mxCell>
         <mxCell id="H5LggXL_RPys8e6z8wPp-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="App" vertex="1">
           <mxGeometry height="60" width="160" x="580" y="680" as="geometry" />
@@ -161,6 +167,27 @@
         </mxCell>
         <mxCell id="baiLG6loblqedv6KLGfw-44" edge="1" parent="1" source="baiLG6loblqedv6KLGfw-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.765;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;" target="LClV99jyUjGdxW2D3NQb-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Anuncio" vertex="1">
+          <mxGeometry height="320" width="260" x="370" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-4" parent="u4t3mQ30tJPqneAjAJ20-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- anunciante: String&lt;div&gt;- titulo: String&lt;/div&gt;&lt;div&gt;- duracaoSegundos: int&lt;/div&gt;&lt;div&gt;- valorPorMilImpressos: double&lt;/div&gt;&lt;div&gt;- impressos: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-5" parent="u4t3mQ30tJPqneAjAJ20-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u4t3mQ30tJPqneAjAJ20-6" parent="u4t3mQ30tJPqneAjAJ20-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Anuncio(anunciante: String, titulo: String, duracaoSegundos: int, valorPorMilImpressos: double)&lt;div&gt;+ getAnunciante: String&lt;/div&gt;&lt;div&gt;+ setAnunciante(anunciante: String): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getTitulo(): String&lt;br&gt;+ setTitulo(titulo: String): void&lt;/div&gt;&lt;div&gt;+ getDuracaoSegundos(): int&lt;/div&gt;&lt;div&gt;+ setDuracaoSegundos(duracaoSegundos: int) : void&lt;/div&gt;&lt;div&gt;+ getValorPorMilImpressos(): double&lt;/div&gt;&lt;div&gt;+ setValorPorMilImpressos(valorMilImpressos: double): void&lt;br&gt;+ getImpressos(): int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="202" width="260" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="d4Sk_0s2EpiaPiDly2HA-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Cronometrável&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="90" y="-570" as="geometry" />
+        </mxCell>
+        <mxCell id="d4Sk_0s2EpiaPiDly2HA-5" parent="d4Sk_0s2EpiaPiDly2HA-3" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d4Sk_0s2EpiaPiDly2HA-6" parent="d4Sk_0s2EpiaPiDly2HA-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ getDuracaoSegundos(): int&lt;br&gt;+ getDuracaoFormatada(): String" vertex="1">
+          <mxGeometry height="42" width="220" y="48" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
