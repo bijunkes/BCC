@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a831e4c2-ce1b-42a4-8f9a-7b0921176755" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase03/sonoraFase03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase03/sonoraFase03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase04/sonoraFase04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase04/sonoraFase04.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase05/sonoraFase05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase05/sonoraFase05.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase06/sonoraFase06.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase06/sonoraFase06.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase07/sonoraFase07.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase07/sonoraFase07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase08/sonoraFase08.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase08/sonoraFase08.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase09/sonoraFase09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/sonoraFase09/sonoraFase09.iml" afterDir="false" />
-    </list>
+    <list default="true" id="a831e4c2-ce1b-42a4-8f9a-7b0921176755" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +23,12 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bianc/OneDrive/Documents/Projetos/BCC",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
