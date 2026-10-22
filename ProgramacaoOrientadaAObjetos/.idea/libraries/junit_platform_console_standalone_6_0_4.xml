@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="junit-platform-console-standalone-6.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Unidade01/sonoraFase06/lib/junit-platform-console-standalone-6.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

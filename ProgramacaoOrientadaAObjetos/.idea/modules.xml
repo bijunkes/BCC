@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/BiancaJunkesRech/BiancaJunkesRech.iml" filepath="$PROJECT_DIR$/Unidade01/BiancaJunkesRech/BiancaJunkesRech.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/Lista01/Lista01.iml" filepath="$PROJECT_DIR$/Unidade01/Lista01/Lista01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/ListaRevisãoP2/src/ListaRevisãoP2.iml" filepath="$PROJECT_DIR$/Unidade01/ListaRevisãoP2/src/ListaRevisãoP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProgramacaoOrientadaAObjetos.iml" filepath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/RevisaoProva/RevisaoProva.iml" filepath="$PROJECT_DIR$/Unidade01/RevisaoProva/RevisaoProva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/Unidade01.iml" filepath="$PROJECT_DIR$/Unidade01/Unidade01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/ListaRevisãoP2/src/parteA/parteA.iml" filepath="$PROJECT_DIR$/Unidade01/ListaRevisãoP2/src/parteA/parteA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase03/sonoraFase03.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase03/sonoraFase03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase04/sonoraFase04.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase04/sonoraFase04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase05/sonoraFase05.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase05/sonoraFase05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase06/sonoraFase06.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase06/sonoraFase06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase07/sonoraFase07.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase07/sonoraFase07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase08/sonoraFase08.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase08/sonoraFase08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Unidade01/sonoraFase09/sonoraFase09.iml" filepath="$PROJECT_DIR$/Unidade01/sonoraFase09/sonoraFase09.iml" />
+    </modules>
+  </component>
+</project>
