@@ -1,4 +1,4 @@
-public abstract class Midia {
+public abstract class Midia1 {
 
     private String descricao;
     private double precoBase;
