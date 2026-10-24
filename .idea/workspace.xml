@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a831e4c2-ce1b-42a4-8f9a-7b0921176755" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a3/TabelaRespota.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a1/Main1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a1/Midia1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a1/Senha.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a1/Senha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Documentario.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Documentario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Legendavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Legendavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Main2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Midia2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Midia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a2/Serie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,30 +31,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bjrech/Documents/BCC&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/bianc/OneDrive/Documents/Projetos/BCC/ProgramacaoOrientadaAObjetos/Unidade01/ListaRevisãoP2/src/parteA/a3",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bianc\OneDrive\Documents\Projetos\BCC\ProgramacaoOrientadaAObjetos\Unidade01\ListaRevisãoP2\src\parteA\a3" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-a203e0a19954-intellij.indexing.shared.core-IU-262.10968.63" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.10968.63" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>

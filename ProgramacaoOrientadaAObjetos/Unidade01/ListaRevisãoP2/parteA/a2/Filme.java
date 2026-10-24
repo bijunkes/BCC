@@ -1,0 +1,11 @@
+public class Filme extends Midia {
+
+    public Filme(String descricao, double precoBase) {
+        super(descricao, precoBase);
+    }
+
+    @Override
+    public double calcularPreco() {
+        return precoBase;
+    }
+}
